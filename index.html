@@ -1,0 +1,216 @@
+<!DOCTYPE html><html lang="en"><head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="App Market">
+        <meta name="google" content="notranslate">
+        <meta name="user_id" content="b71a79fd-41f4-45d0-bacb-110bb576b59e">
+        <meta name="va_app_id" content="7be6056f-2163-489c-9073-08faca9a83ce">
+        <meta name="va_app_public_key" content="BBIExMaH1QYh8lbGvooGMR7nDa1ZczxZkdE80KjQgf3K8EAmby6jkimAf_K692ge4dO1Y-iMGtu19pLF701nwgs">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="icon" href="data:,">
+        <title>App Market</title>
+        <style>
+            :root {
+                --blue: #4285F4;
+                --red: #DB4437;
+                --yellow: #F4B400;
+                --green: #0F9D58;
+            }
+            body {
+                height: 100svh;
+            }
+            #app {
+                position: relative;
+                z-index: 1;
+            }
+            .container-loader {
+                width: 200px;
+                height: 200px;
+                position: fixed;
+                z-index: 1000;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background: #fff;
+                margin: 10px;
+                min-width: 100px;
+                display: none;
+            }
+            .container-loader .content {
+                width: 100%;
+                display: flex;
+                height: 100%;
+                align-items: center;
+                justify-content: center;
+            }
+            .animation .dot {
+                width: 15px;
+                height: 15px;
+                border-radius: 10px;
+                margin: 5px;
+                animation: g-loader 1s ease-in-out infinite;
+            }
+            .animation .dot:nth-child(1) {
+                background: var(--blue);
+                animation-delay: .1s;
+            }
+            .animation .dot:nth-child(2) {
+                background: var(--red);
+                animation-delay: .25s;
+            }
+            .animation .dot:nth-child(3) {
+                background: var(--yellow);
+                animation-delay: .4s;
+            }
+            .animation .dot:nth-child(4) {
+                background: var(--green);
+                animation-delay: .55s;
+            }
+            @keyframes g-loader {
+                0%, 100% {
+                    height: 15px;
+                }
+                50% {
+                    height: 40px;
+                }
+            }
+        </style>
+        <link rel="manifest" href="/manifest.webmanifest?v=b71a79fd-41f4-45d0-bacb-110bb576b59e">
+      
+      
+    
+<!-- Facebook Pixel Code -->
+<script async="" src="js/fbevents.js"></script><script>
+      !function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod ?
+            n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+      }(window, document, 'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '1113681550199081');
+      fbq('track', 'PageView',{
+    user_data: {
+      external_id: 'PAY2xjawISZINleHRuA2FlbQEwAGFkaWQAAAYQcyYf0AGmT-44NxWJ51JoOdPM0fpZz0gz-GtypbxwjZurXUXkExwNya92mXy_1li3_aem_RW92hy0CXIZ7PhWiJgvHbA'
+    }
+  });
+     
+         window.addEventListener('pwa_installed', () => fbq('track', 'Lead', {value: 0.00, currency: 'USD', user_data: {
+      external_id: 'PAY2xjawISZINleHRuA2FlbQEwAGFkaWQAAAYQcyYf0AGmT-44NxWJ51JoOdPM0fpZz0gz-GtypbxwjZurXUXkExwNya92mXy_1li3_aem_RW92hy0CXIZ7PhWiJgvHbA'
+    }}))
+      
+	  window.addEventListener('offer_registered', (event) => {
+  if (
+    event.detail && 
+    event.detail.currency && 
+    event.detail.external_id &&
+    event.detail.event_id &&
+    event.detail.event_name 
+  ) {
+    fbq('track', event.detail.event_name, {
+      value: event.detail.value,
+      currency: event.detail.currency,
+      user_data: {
+        external_id: event.detail.external_id,
+      },
+      event_id: event.detail.event_id,
+    });
+  } else {
+    console.error('Missing data in "offer_registered" event');
+  }
+});
+</script>
+<noscript>
+  <img height="1" width="1" style="display:none" 
+       src="https://www.facebook.com/tr?id=1113681550199081&ev=PageView&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+<link rel="stylesheet" href="css/index-C_mXxGlj.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" media="print"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" media="print"></head>
+    <body>
+		<script id="manifest">
+		var manifest = {"name":"Baloon Batery","id":"c8ef3899-f7cc-445b-9e61-6d849a027c3d","short_name":"","scope":"/","start_url":"/pwa","display":"standalone","background_color":"#ffffff","description":"Baloon Batery","orientation":"any","prefer_related_applications":true,"related_applications":[{"platform":"webapp","url":"https://baloon-batery.online/manifest.webmanifest?v=b71a79fd-41f4-45d0-bacb-110bb576b59e"}],"icons":[{"src":"https://imagedelivery.net/r6ZdnJW2Fjs2Kg3O7wfycA/48d1ad40-da71-40f3-cb4e-66ea15d11400/public","sizes":"64x64","type":"image/png","purpose":"maskable any"},{"src":"https://imagedelivery.net/r6ZdnJW2Fjs2Kg3O7wfycA/48d1ad40-da71-40f3-cb4e-66ea15d11400/public","sizes":"128x128","type":"image/png","purpose":"maskable any"},{"src":"https://imagedelivery.net/r6ZdnJW2Fjs2Kg3O7wfycA/48d1ad40-da71-40f3-cb4e-66ea15d11400/public","sizes":"144x144","type":"image/png","purpose":"maskable any"},{"src":"https://imagedelivery.net/r6ZdnJW2Fjs2Kg3O7wfycA/48d1ad40-da71-40f3-cb4e-66ea15d11400/public","sizes":"256x256","type":"image/png","purpose":"maskable any"},{"src":"https://imagedelivery.net/r6ZdnJW2Fjs2Kg3O7wfycA/48d1ad40-da71-40f3-cb4e-66ea15d11400/public","sizes":"512x512","type":"image/png","purpose":"maskable any"}],"manifest_package":"org.chromium.webapk.c8ef3899-f7cc-445b-9e61-6d849a027c3d","intent_filters":{"scope_url_scheme":"https","scope_url_host":"baloon-batery.online","scope_url_path":"/"},"bound_webapk":{"runtime_host":"org.chromium.chrome","runtime_host_application_name":"Chromium"}}
+		</script>
+        <div id="loader" class="container-loader animation" style="display: block;">
+            <div class="content">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+        <div id="app" style="display: none;"></div>
+        <a style="display: none" id="rd" href="#">rd</a>
+        <script>
+            window.deferredPrompt = null;
+            window.webManifest = null;
+
+            window.addEventListener('beforeinstallprompt', (event) => {
+                event.preventDefault();
+                window.deferredPrompt = event;
+            });
+
+            document.addEventListener('DOMContentLoaded', function () {
+
+                const loader = document.getElementById('loader');
+
+                if (loader) {
+                    loader.style.display = 'block';
+
+                    setTimeout(() => {
+                        const indexCssLink = document.createElement('link');
+                        indexCssLink.rel = 'stylesheet';
+                        indexCssLink.href = '/assets/index-C_mXxGlj.css';
+                        indexCssLink.crossorigin = 'anonymous';
+
+                        document.head.appendChild(indexCssLink);
+
+                        const indexScript = document.createElement('script');
+                        indexScript.src = '/assets/index-V2hs9HcE.js';
+                        indexScript.type = 'module';
+                        indexScript.defer = true;
+                        indexScript.crossorigin = 'anonymous';
+
+                        document.body.appendChild(indexScript);
+                    }, 50);
+
+                    setTimeout(() => {
+                        const fontRobotoLink = document.createElement('link');
+                        fontRobotoLink.rel = 'stylesheet';
+                        fontRobotoLink.href = 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap';
+                        fontRobotoLink.media = 'print';
+                        fontRobotoLink.onload = function () {
+                            fontRobotoLink.media = 'all';
+                        };
+
+                        const fontManropeLink = document.createElement('link');
+                        fontManropeLink.rel = 'stylesheet';
+                        fontManropeLink.href = 'https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap';
+                        fontManropeLink.media = 'print';
+                        fontManropeLink.onload = function () {
+                            fontManropeLink.media = 'all';
+                        };
+
+                        document.head.appendChild(fontRobotoLink);
+                        document.head.appendChild(fontManropeLink);
+                    }, 500);
+                }
+            });
+
+        </script>
+    
+		<script id="pwaInfo">
+		var pwaInfo = {"approved":true,"name":"Baloon Batery","developer":"Batery Soft","have_ads":true,"have_purchase":true,"editor_choice":true,"age":18,"rating":4.7,"number_of_reviews":12003,"number_of_downloads":1000000,"por_5":90,"por_4":4,"por_3":3,"por_2":1,"por_1":1,"descr":"Baloon is a fun and exciting online casino slot game that is perfect for players in India. This colorful and vibrant game features balloons as the main theme, creating a cheerful and uplifting atmosphere for players to enjoy. With easy-to-understand rules and engaging gameplay, Baloon is sure to keep players entertained for hours on end. So come and join the fun as you spin the reels and watch as balloons float across the screen, bringing you big wins and endless excitement. Play Baloon today and experience the thrill of online casino gaming at its best.","vers":"6.4.5001","last_update":1708502183,"rav":"7","ie":"Interactive elements","release":1708502183,"whats_new":"upd 4.75b","google":"","yandex":"","facebook":"","tiktok":"","categories":[],"comments":[{"date":1735036431,"user_name":"Ramesh","avatar":"","picture_ru":"","content":"I just love playing Baloon! It is so exciting and addictive that I don't have enough time to do anything else. Besides, playing in English improves my language skills. I recommend everyone to give it a try!","stars":5,"likes":0,"priority":0,"adapt":true,"days":0},{"date":1735036435,"user_name":"Priya","avatar":"","picture_ru":"","content":"Baloon is a great game that is not only fun, but also helps me develop my logic and reaction time. Playing in English improves my vocabulary and grammar. Highly recommended","stars":5,"likes":0,"priority":1,"adapt":true,"days":0},{"date":1735036437,"user_name":"Priya","avatar":"","picture_ru":"","content":"I've been playing Baloon for a few months now and I just can't stop playing! This game is so interesting and addictive that every time I want to go through all the levels. Playing in English not only gives me a great time but also improves my language skills. I highly recommend it as a way to have fun and learn!","stars":5,"likes":0,"priority":2,"adapt":true,"days":0}],"pictures":[{"picture":"https://imagedelivery.net/r6ZdnJW2Fjs2Kg3O7wfycA/8044198c-3b9c-4611-61cd-f5f892e57900/public","picture_ru":""},{"picture":"https://imagedelivery.net/r6ZdnJW2Fjs2Kg3O7wfycA/de5dcead-c33e-4093-3cb0-7c051fbe0b00/public","picture_ru":""},{"picture":"https://imagedelivery.net/r6ZdnJW2Fjs2Kg3O7wfycA/8e95a689-ed70-4907-c092-66ae22658d00/public","picture_ru":""}],"icon":{"link":"https://imagedelivery.net/r6ZdnJW2Fjs2Kg3O7wfycA/48d1ad40-da71-40f3-cb4e-66ea15d11400/public","picture_ru":""},"static_text":{"install_btn":"Install","open_btn":"Open","installing_str":"Installing...","app_available_str":"This app is available for all of your devices","app_not_available":"This application is not available for your devices.","helpful_info_str":"Did you find this helpful?","yes_str":"Yes","no_str":"No","all_reviews_str":"See all reviews","gift_cards_str":"Gift cards","use_bonus_str":"Redeem","refund_policy_str":"Family sharing","children_and_family_str":"Kids \u0026 family","guide_for_parents_str":"Parent Guide","terms_of_use_str":"Terms of use","confidentiality_str":"Privacy","about_google_play_str":"About","for_developers_str":"Developers","vat_prices_str":"All prices include VAT.","developer_str":"Offered by","have_ads_str":"Contains ads","have_purchase_str":"In-app purchases","editor_choice_str":"Editor's choice","age_restriction_str":"Content rating","last_update_str":"Updated on","version_str":"Version","description_str":"About this app","ie_str":"Interactive elements","rav_str":"Requires Android","release_str":"Released on","whats_new_str":"What's New","data_safety_str":"Data safety","data_security":"Safety starts with understanding how developers collect and share your data. Data privacy and security practices may vary based on your use, region, and age. The developer provided this information and may update it over time.","data_transfer":"This app may share these data types with third parties","data_collection":"This app may collect these data types","data_encryption":"Data is encrypted in transit","deleting_data":"You can request that data be deleted","number_of_reviews_str":"reviews","rating_str":"Rating","number_of_downloads_str":"Downloads","rating_and_reviews_str":"Rating and reviews","rating_and_reviews_verif_str":"Ratings and reviews are verified","parental_controls_required":"Parental controls required","td":false,"numbers":0,"pl":false,"mill":"M","tousand":"K","m1":"","m2":"","m3":"","m4":"","m5":"","m6":"","m7":"","m8":"","m9":"","m10":"","m11":"","m12":""},"offer":"https://bateryvip.com/BKqzVnnb?external_id=b71a79fd-41f4-45d0-bacb-110bb576b59e\u0026sub_id_1=drios\u0026sub_id_2=Ivan\u0026sub_id_3=in031bal\u0026sub_id_4=264863688\u0026sub_id_5=aviatorold\u0026sub_id_6={sub_id_6}"};
+		</script>
+		
+<script src="js/index-V2hs9HcE.js" type="module" defer=""></script></body></html>
